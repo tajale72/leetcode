@@ -1,0 +1,10 @@
+Hi my name is romit tajale. I have avout 6 years in software development.
+I have worked extensively in both java and golang. I have about 4 years of experience in golang.
+I have a got chance to work with various open-source framework in golang to build rest api and microservcies. 
+I have worked on creating uml diagrams, sequence diagram, data flow diagram and architecture diagram and also developed a software
+to concurrent data collection and processing using goroutine and channel.
+I also got a chanc eto work with both sql database like (sql server, Postgres Sql, Oracle and DB2) and nosql database like MongoDB and utilized ORM sequalize
+GORM for BD operations.
+I also got a chance to work on authentication and authorize services.
+I am also familiar working with differnet CICD tools like jenkin, Github, bitbucket, Terraform along with docker and kubernetes
+In terms of cloud services i have worked in azure devops and aws and their components.

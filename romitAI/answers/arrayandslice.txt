@@ -1,0 +1,1 @@
+A slice is a dynamic data structure in Go that provides a flexible way to work with collections of elements. Slices are similar to arrays, but unlike arrays, slices have a variable length and are dynamically resizable. Slices are references to arrays, so changes made to a slice will affect the underlying array.

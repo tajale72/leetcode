@@ -1,0 +1,30 @@
+What is golang
+- Golang is a programin glanguage which is statically typed, is a simple and supports concurrent programming using goroutine and channels.
+
+Main featuers in golang:
+- simple
+- complies faster
+- supports concurrecny
+- garbage collection
+
+purpose of defer:
+- defer is used to execute at the end of the function
+- is used for closing(channels) or files ( this works even after an error)
+
+closure functions:
+
+is a fucntion which has access to variables from outer function.
+This makes them especially useful in concurrent programming, where multiple goroutines may need to access shared state. 
+By using closures to encapsulate the shared state, you can ensure that each goroutine only modifies the state in a controlled way.
+
+What is Select and how do you use it?
+Non-blocking communication
+timeout handeling
+multiple channels
+priority handeling
+
+
+
+
+
+

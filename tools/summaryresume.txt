@@ -1,0 +1,52 @@
+
+//Introduction
+Hi My name is romit tajale. I am excited to be here for the technical interview. 
+I have over 6 years of experience in software development and have worked extensively with java and golang.
+My experience includes all stages of the software development life cycle, from designing,requirement gathering, development , testing, debugging and deployment.
+Additionally, I have hands-on experience with various open-source frameworks in Golang and Java for 
+writing and testing code to build REST API and services.
+I have designed UML and Sequence Diagrams using MS Visio and developed Golang software to handle concurrent data collection and processing using Goroutines and Channels. 
+I have worked with various databases like SQL (MSSQL, PostgreSQL/PL/SQL, MySQL) and NoSQL (MongoDB) and utilized ORM's like Sequelize and GORM for DB operations.
+I am also familiar with CICD tools like jenkins, Gitlab, and Terraform, along with working with docker conatiners and Kubernetes
+In terms of Cloud Services, I have worked with Azure Devops and AWS (Amazon we service). 
+My experience with relational database include working with severa; RDBMS like SQL Server, Oracle and Postgres.
+I have experience in Test Driven Development and Agile methodology.
+
+
+
+
+//Directv
+I am currently working as a microservice/golang developer where we are currently working in a monolithic architecture which includes\
+multiple workflows and we were working towards migrating the monolithic architecture into microservice architecture.
+my responsiblities require working with the team to discuss the potential approaches and providing input in the discussions.
+we work with multiple client's which ingest the large movie/trailer's and we process these files based on their workflow and format
+and we had different teams  which required production support each sprint so we would rotate every other sprint.
+
+//Humana
+While, I was working with humana, I worked on building multiple microservice which required authentication and authorization.
+I worked on to create contracts, sql builder with access restriction and service to manage restriction among the employees.
+I was also working as a dev lead in the team, my responsibility as a dev lead was to work with external teams, working closely with PO, BA and architect.
+I was also part of multiple meetings to discuss the road map of our deliveries and was part of demoing the project to both client and 
+other team members. I was responsible for understanding and buikding the data structure of the services.
+I was also working closely with the devops team to build docker images and managed the containers in kubernetes.
+
+//Seatle genetics
+My responsibility were to build REST API using gorilla/mux frameworks to implement implemented the routing technique in Golang using Gorilla mux as the request router and dispatcher
+I have migrated legacy code and integrated with third-party applications using API.
+ I have utilized Kubernetes for the runtime environment of the CI/CD system and 
+ created docker images for Microservices files to orchestrate applications using Kubernetes.
+
+
+//BMO Harris
+I worked as a backend java  developer, 
+i worked on Payment transfer service
+I was working on fraud checking for different types of accounts to accounts,based on that response we process the data that we receive based  on the data, we store the transaction into our DB(DB2)
+Involved in migrating multiple services from SOAP to REST API
+Logging : LOG4j 
+Sprintboot for building REST api
+
+
+
+
+
+

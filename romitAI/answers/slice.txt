@@ -1,0 +1,13 @@
+In Go, a slice is a dynamically-sized, flexible view into an underlying array. It provides a way to work with a portion of an array, without having to allocate a new array every time you want to change the size.
+
+A slice is defined by specifying a starting and ending index of an underlying array. The syntax for creating a slice is as follows:
+
+var slice []type = array[start:end]
+Here, array is the underlying array, start is the starting index, and end is the ending index. Note that the slice does not include the element at the ending index. If you omit the start or end index, the slice will start from the beginning or end at the end of the array, respectively.
+
+Slices are dynamic and can be resized using the append function. The append function takes a slice and one or more elements to add to the end of the slice, and returns a new slice with the added elements.
+
+
+slice := []int{1, 2, 3}
+slice = append(slice, 4, 5, 6)
+In addition to append, slices support several other built-in functions such as copy, len, and cap.

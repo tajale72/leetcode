@@ -1,0 +1,27 @@
+what are the things that we have to worry about building a microservice around aws 
+When building a microservice-based application on AWS, there are several things that 
+developers need to consider in order to ensure that their application is reliable, scalable, and secure. Some of the key considerations include:
+
+Service architecture: One of the most important aspects of building microservices is designing the right service architecture.
+ Developers need to carefully consider the boundaries between services, the interfaces between services, and the protocols used for communication. 
+ They also need to ensure that each service is loosely coupled and highly cohesive.
+
+Scalability: AWS provides several tools and services that enable developers to scale their applications horizontally and vertically. 
+Developers need to consider how their application will scale under different loads and traffic patterns, and design their services accordingly.
+
+Availability: Microservices need to be highly available in order to ensure that the application is always accessible to users. 
+AWS provides several tools and services that enable developers to build highly available applications, such as Amazon Elastic Load Balancing (ELB), Amazon Route 53, and Amazon Relational Database Service (RDS).
+
+Security: Security is a critical aspect of building microservices. Developers need to ensure that their services are secure and that they follow best practices for securing data and APIs. 
+AWS provides several security tools and services, such as AWS Identity and Access Management (IAM), AWS Key Management Service (KMS), and AWS CloudTrail, that can help developers secure their applications.
+
+Monitoring and logging: Microservices generate a lot of data, and it's important to have the right tools in place to monitor and log that data. 
+AWS provides several monitoring and logging services, such as Amazon CloudWatch, AWS CloudTrail, and AWS X-Ray, that can help developers gain insight into their application's performance and diagnose issues quickly.
+
+Deployment and testing: AWS provides several services that enable developers to deploy and test their microservices quickly and efficiently. 
+Developers need to ensure that their deployment and testing processes are automated and that they follow best practices for continuous integration and delivery (CI/CD).
+
+Cost optimization: Finally, developers need to consider the cost of running their microservices on AWS. 
+AWS provides several tools and services that can help developers optimize their costs, such as AWS Cost Explorer, AWS Trusted Advisor, and AWS Budgets.
+
+By considering these factors, developers can build reliable, scalable, and secure microservices-based applications on AWS.
