@@ -25,21 +25,21 @@ func main() {
 	ceo.PrintLeadershipChain()
 }
 
-//An array is used if we have a fix size data type and want to know the location.
-//Example : List of student grades
+// An array is used if we have a fix size data type and want to know the location.
+// Example : List of student grades
 func Array() {
 	arr := [5]int{1, 2, 3, 4, 5}
 	fmt.Println(arr)
 }
 
-//A Slice is used for a dynamic collection of the same data type.
-//Example : Shopping cart, collection of tweet, comments in the picture
+// A Slice is used for a dynamic collection of the same data type.
+// Example : Shopping cart, collection of tweet, comments in the picture
 func Slice() {
 	arr := []int{2, 4, 5, 7}
 	fmt.Println(arr)
 }
 
-//Map is used when you need a key and a value pair for the data
+// Map is used when you need a key and a value pair for the data
 func TestMap() {
 	arr := []int{2, 4, 5, 2, 7}
 	new := []int{}
@@ -64,7 +64,7 @@ type User struct {
 	age  int
 }
 
-//Struct are used when you need multiple fields in a single entity.
+// Struct are used when you need multiple fields in a single entity.
 func TestStruct() {
 	user := &User{
 		name: "romit",
@@ -73,7 +73,6 @@ func TestStruct() {
 	fmt.Println(user)
 }
 
-//
 func TestInterfaces(val interface{}) {
 	fmt.Println(val)
 }
