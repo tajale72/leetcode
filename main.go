@@ -1,15 +1,14 @@
 package main
 
-import "log"
+import (
+	"log"
+
+	"github.com/gin-gonic/gin"
+	"github.com/tajale72/file-converter/internal/router"
+)
 
 func main() {
-	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-
-	for i := 0; i < len(arr)-2; i++ {
-		if i > 0 && arr[i] == arr[i+1] {
-			continue
-		}
-
-		log.Println(arr[i])
-	}
+	r := gin.Default()
+	r.GET("/", router.Fie)
+	router.Fi
 }

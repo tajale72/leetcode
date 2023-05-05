@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Example</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <table id="api-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Currency</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Last Updated</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script>
+const apiUrl = 'http://localhost:8080/btc';
+
+// Fetch the API data and update the table with the response
+fetch(apiUrl)
+    .then(response => response.json())
+    .then(data => {
+        // Select the table body element
+        const tableBody = document.querySelector('#api-table tbody');
+
+        // Loop through the data and add a new row for each object
+        data.forEach(obj => {
+            // Create a new row for the API data
+            const row = tableBody.insertRow();
+
+            // Add each data field as a table cell
+            const dateCell = row.insertCell();
+            dateCell.innerHTML = obj.date;
+
+            const currencyCell = row.insertCell();
+            currencyCell.innerHTML = obj.currency;
+
+            const nameCell = row.insertCell();
+            nameCell.innerHTML = obj.name;
+
+            const priceCell = row.insertCell();
+            priceCell.innerHTML = obj.price;
+
+            const lastUpdatedCell = row.insertCell();
+            lastUpdatedCell.innerHTML = obj.lastUpdated;
+        });
+    })
+    .catch(error => console.error(error));
+
+    </script>
+</body>
+</html>
